@@ -3,13 +3,13 @@ using namespace std;
 
 class locate{
     long long int isbn[5]={9780061120084,9780316769488,9780743273565,9780486284736,9780590353427};
-    string book [5]={"To Kill a Mockingbird","1984","The Catcher in the Rye","The Great Gatsby","Pride and Prejudice"};
+    string book [5]={"To Kill A Mockingbird","1984","The Catcher in the Rye","The Great Gatsby","Pride & Prejudice"};
     string author[5]={"Harper Lee","George Orwell","J.D. Salinger","F. Scott Fitzgerald"," Jane Austen"};
     long long int isbn_no;
 
     public:
         void get(){
-            cout<<"enter the isbn number of the book that you want : "<<endl;
+            cout<<"enter the ISBN number of the book that you want : "<<endl;
             cin>>isbn_no;
             cout<<endl;
         }
@@ -29,7 +29,7 @@ class locate{
                 
             }
             if(n==0){
-                    cout<<"book not found "<<endl;
+                    cout<<"BOOK NOT FOUND ERROR 404 NOT FOUND"<<endl;
                 }
         }
 };
@@ -37,6 +37,7 @@ int main(){
     locate l1;
     l1.get();
     l1.locates();
+    cout<<"Kartik Vashisht 2310997141"<<endl;
 
     return 0;
 }
