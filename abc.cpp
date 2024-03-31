@@ -2,9 +2,9 @@
 using namespace std;
 
 class locate{
-    long long int isbn[5]={9780061120084,9780316769488,9780743273565,9780486284736,9780590353427};
-    string book [5]={"To Kill A Mockingbird","1984","The Catcher in the Rye","The Great Gatsby","Pride & Prejudice"};
-    string author[5]={"Harper Lee","George Orwell","J.D. Salinger","F. Scott Fitzgerald"," Jane Austen"};
+    long long int isbn[5]={3463580853574,4569763594168,8974649449553,9878456324175,2356741598246};
+    string book [5]={"Mein Kamph","Romeo and Juliet","Illiad","The Great Gatsby","Principia"};
+    string author[5]={"Adolf Hitler","William Shakespeare","Homer","F. Scott Fitzgerald","Isaac Newton"};
     long long int isbn_no;
 
     public:
@@ -18,7 +18,7 @@ class locate{
             for(int i=0;i<5;i++){
                 if(isbn_no==isbn[i]){
                     n=1;
-                    cout<<"Your book : "<<book[i]<<endl;
+                    cout<<"Your Book : "<<book[i]<<endl;
                     cout<<"Author : "<<author[i]<<endl;
 
                     break;
